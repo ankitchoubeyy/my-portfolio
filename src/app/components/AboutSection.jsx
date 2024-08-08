@@ -9,7 +9,7 @@ const TAB_DATA = [
     title: "Skills",
     id: "skills",
     content: (
-      <ul className= "list-disc pl-2">
+      <ul className="list-disc pl-2">
         <li>Node.je</li>
         <li>Express</li>
         <li>JavaScript</li>
@@ -23,7 +23,7 @@ const TAB_DATA = [
     title: "Education",
     id: "education",
     content: (
-      <ul className= "list-disc pl-2">
+      <ul className="list-disc pl-2">
         <li>
           <span>12th</span> Shaiffali Public School, Gr.Noida
         </li>
@@ -35,7 +35,7 @@ const TAB_DATA = [
     title: "Experience",
     id: "experience",
     content: (
-      <ul className= "list-disc pl-2">
+      <ul className="list-disc pl-2">
         <li>3 months of Intership experience at IBM</li>
         <li>2 months of Internship experience at MongosOrange</li>
       </ul>
@@ -56,7 +56,12 @@ function AboutSection() {
     <section className="text-white">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16">
         <div>
-          <Image src="/images/about-us.jpg" width={500} height={500} />
+          <Image
+            src="/images/about-us.jpg"
+            width={500}
+            height={500}
+            alt="about-image"
+          />
         </div>
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold mb-4">About me</h2>
