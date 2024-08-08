@@ -10,7 +10,7 @@ function HeroSection() {
         <div className="col-span-7 place-self-center text-center sm:text-left">
           <h1 className="text-white text-6xl sm:text-7xl lg:text-8xl mb-6">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
-              Hello, I'm{" "}
+              Hello, I&apos;m{" "}
             </span>{" "}
             <div>
               <TypeAnimation
