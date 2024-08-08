@@ -6,9 +6,9 @@ import AchivementsSection from "./components/AchivementsSection";
 
 export default function Home() {
   return (
-    <main className="flex flex-col min-h-screen py-6 px-12 bg-[#121212]">
+    <main className="flex flex-col min-h-screen sm:py-6 sm:px-12 bg-[#121212]">
       <Navbar />
-      <div className="container mx-auto px-12 py-4">
+      <div className="container mx-auto px-6 sm:px-12 py-3 sm:py-4">
         <HeroSection />
         <AchivementsSection />
         <AboutSection />
